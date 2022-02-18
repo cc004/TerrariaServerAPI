@@ -14,7 +14,7 @@ namespace TerrariaApi.Server
 	// TODO: Maybe re-implement a reload functionality for plugins, but you'll have to load all assemblies into their own
 	// AppDomain in order to unload them again later. Beware that having them in their own AppDomain might cause threading
 	// problems as usual locks will only work in their own AppDomains.
-	public static class ServerApi
+	public static partial class ServerApi
 	{
 		public const string PluginsPath = "ServerPlugins";
 
